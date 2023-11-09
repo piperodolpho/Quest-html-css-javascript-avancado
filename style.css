@@ -19,7 +19,7 @@ body {
     width: 500px;
 }
 
-.formulário{ 
+.formulario{ 
     background-color: white;
     grid-area: formulario;
     display: flex;
