@@ -1,0 +1,27 @@
+body {
+    background-color: blueviolet;
+    display: grid;
+    
+    grid:
+    "texto formulario" 100vh /
+    300px 340px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    grid-gap: 50px;
+
+
+}
+
+.texto {
+    grid-area: texto;
+    color: white;
+    width: 500px;
+}
+
+.formulário{ 
+    background-color: white;
+    grid-area: formulario;
+    display: flex;
+    flex-direction: column;
+}
