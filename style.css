@@ -1,0 +1,40 @@
+body {
+    background-color: blueviolet;
+    display: grid;
+    
+    grid:
+    "texto formulario" 100vh /
+    300px 340px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    grid-gap: 50px;
+
+
+}
+
+.texto {
+    grid-area: texto;
+    color: white;
+    width: 500px;
+}
+
+.formulario{ 
+    background-color: white;
+    grid-area: formulario;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.valido{
+    border: 1px solid green;
+}
+
+.invalido{
+    border: 1px solid red;
+}
+
+.obrigatorio{
+    color: red;
+}

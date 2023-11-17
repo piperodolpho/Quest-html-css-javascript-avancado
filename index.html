@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="texto">
+        <h1>FICOU COM ALGUMA DÚVIDA? NOS MANDE UMA MENSAGEM</h1>
+        <p>caso tenha ficado com qualquer dúvida entre em contato conosco que retornaremos em até 24h</p>
+    </div>
+    <div class="formulario">
+        <form>
+            <input type="text" class="formDefault" placeholder="Nome completo *"><br><br>
+            <p class="obrigatorio"></p>
+            <input type="email" class="formDefault" placeholder="Email *"><br><br>
+            <p class="obrigatorio"></p>
+            <input type="number" class="formDefault" placeholder="Telefone *"><br><br>
+            <p class="obrigatorio"></p>
+            <textarea name="mensagem" class="formDefault" placeholder="Mensagem *" cols="25" rows="8"></textarea><br><br>
+            <p class="obrigatorio"></p>
+            <p>*campos obrigatórios</p>
+            <input type="submit" value="Enviar" class="botao-enviar" onclick="enviarFormulario()">
+        </form>
+
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
