@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     background-color: blueviolet;
     display: grid;
@@ -10,8 +9,6 @@ body {
     align-items: center;
     justify-content: space-around;
     grid-gap: 50px;
-
-
 }
 
 .texto {
@@ -27,6 +24,9 @@ body {
     flex-direction: column;
     padding: 20px;
 }
+.formDefault{
+    border-bottom: 0px;
+}
 
 .valido{
     border: 1px solid green;
@@ -38,33 +38,5 @@ body {
 
 .obrigatorio{
     color: red;
+    border-top: 0px;
 }
-=======
-body {
-    background-color: blueviolet;
-    display: grid;
-    
-    grid:
-    "texto formulario" 100vh /
-    300px 340px;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    grid-gap: 50px;
-
-
-}
-
-.texto {
-    grid-area: texto;
-    color: white;
-    width: 500px;
-}
-
-.formulario{ 
-    background-color: white;
-    grid-area: formulario;
-    display: flex;
-    flex-direction: column;
-}
->>>>>>> e4ab05acdbc48486cc3242a5f5fbf676c701fed4

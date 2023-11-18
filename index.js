@@ -1,14 +1,20 @@
-var formulario = document.querySelectorAll(".formDefault").value
+var formulario = document.querySelectorAll(".formDefault")
 var invalido = document.querySelectorAll(".obrigatorio")
+console.log(formulario)
+console.log(invalido)
 
 function enviarFormulario(){
-formulario.forEach(element => {
-    if (formulario == ""){
-        invalido[element].innerHTML = "campo obrigatório*";
-        this.element.classList.add("invalido")
+formulario.forEach(validacao) 
+}
+
+function validacao(item, index){
+    if (item.value === ""){
+        invalido[index].innerHTML = "campo obrigatório*";
+        item.classList.add("invalido")
     } else {
-        this.element.classList.add("valido")
+        invalido[index].innerHTML = "";
+        item.classList.remove("invalido")
+        item.classList.add("valido")
     }  
-});
 }
 
